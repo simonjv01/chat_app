@@ -29,7 +29,12 @@ class LoginPage extends StatelessWidget {
           fontSize: 20,
           color: Colors.blue),
           ),
-          Image.network('https://3009709.youcanlearnit.net/Alien_LIL_131338.png')
+          Image.network('https://3009709.youcanlearnit.net/Alien_LIL_131338.png', height: 100,),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.blue,
+          )
         ],
       ),
     );
