@@ -8,6 +8,14 @@ class ChatPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        title: const Text('Hi Simon'),
+        actions: [
+          IconButton(
+              onPressed: () {
+                print('Icon pressed');
+              },
+              icon: const Icon(Icons.logout))
+        ],
 
       ),
       body: Container(),
