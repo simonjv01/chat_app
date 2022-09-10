@@ -7,14 +7,6 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      drawer: const Drawer(),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          print('Button clicked');
-        },
-      ),
-
       body: Column(
 
         children: [
