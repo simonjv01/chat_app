@@ -7,31 +7,37 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Text('Let\'s Sign you in!',
+              style: TextStyle(fontSize: 30,
+                  color: Colors.brown,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 0.5),
+            ),
+            const Text('Welcome back! \nYou\'ve been missed!',
+              style: TextStyle(fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                  color: Colors.blue),
+            ),
 
-        children: [
-          const Text('Let\'s Sign you in!',
-            style: TextStyle(fontSize: 30,
-                color: Colors.brown,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 0.5),
-          ),
-          const Text('Welcome back! \nYou\'ve been missed!',
-          style: TextStyle(fontWeight: FontWeight.bold,
-          fontSize: 20,
-          color: Colors.blue),
-          ),
-          Image.network('https://3009709.youcanlearnit.net/Alien_LIL_131338.png', height: 100,),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.blue,
-          )
-        ],
+
+            Image.network(
+              'https://3009709.youcanlearnit.net/Alien_LIL_131338.png',
+              height: 200,
+            ),
+          ],
+        ),
       ),
     );
   }
+
 }
+
+
+
 
 
 
