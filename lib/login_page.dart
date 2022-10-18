@@ -14,7 +14,7 @@ class LoginPage extends StatelessWidget {
           children: [
             const Text('Let\'s Sign you in!',
               style: TextStyle(fontSize: 30,
-                  color: Colors.brown,
+                  color: Colors.blue,
                   fontWeight: FontWeight.bold,
                   letterSpacing: 0.5),
             ),
